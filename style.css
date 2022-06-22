@@ -32,6 +32,7 @@
         position: relative;
         top: 2rem;
         max-width: 60px;
+        max-height: 60px;
     }
     .colCard{
         display: inline-flex;
@@ -43,10 +44,11 @@
         height: 300px !important;
     }
     .colImage1 img{
-        max-width: 150px !important;
+        max-width: 200px !important;
     }
     #imageAvatar{
         max-width: 250px;
+        max-height: 250px;
     }
     .card-body p, .contactDos p{
         font-size: 18px;
