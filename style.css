@@ -1,0 +1,235 @@
+@media (max-width: 1400px){
+    .buttonsMain{
+        display: inline-flex;
+        flex-direction: column;
+    }
+    .buttonsMain a{
+        margin: 10px;
+    }
+    .row .avatarBox{
+        position:relative !important;
+        bottom: 50px !important;
+    }
+        h1{
+        font-size: 6rem !important;
+    }
+    .avatarBox h3{
+        min-width: 200px;
+        font-size: 50px !important;
+        margin-top: 30px !important;
+    }
+    .contentAreaAbout{
+        height: 800px !important;
+    }
+    .colImage2 {
+        width: 85% !important;
+        color: rgba(76, 115, 255, 0.5);
+        font-size: 28px;
+        margin: auto;
+        text-align: center;
+    }
+    .imgLang{
+        position: relative;
+        top: 2rem;
+    }
+    .colCard{
+        display: inline-flex;
+        justify-content: center;
+        margin: 200px 0px;
+    }
+    .contentAreaBox{
+        min-width: 80%;
+        height: 450px !important;
+    }
+    
+}
+   
+        
+
+body{ 
+    background: rgb(230,239,255);
+    background: linear-gradient(350deg, rgba(230,239,255,1) 0%, rgba(154,189,255,1) 38%, rgba(230,239,255,1) 100%);
+    color: white;
+    font-family: 'Amatic SC';
+    margin: 0%;
+    padding: 0%;
+}
+
+.name{
+    text-align: center
+}
+
+.buttonsMain{
+    text-align: center;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+button{
+    background: rgb(0,22,100);
+    background: linear-gradient(90deg, rgba(0,22,100,0.5) 0%, rgba(37, 62, 149, 0.5) 50%, rgba(0,22,100,0.5) 100%);  
+    color: white !important;
+    border: none !important;
+    font-size: 20px !important;
+    width: 200px;
+    height: 40px;
+    box-shadow: 5px 5px 20px -5px rgba(0,0,0,0.8);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+button:hover{
+    background-color: rgba(0, 22, 100, 0.80) !important;
+    
+}
+
+.name h1{
+    font-size: 7rem;
+    margin: 0%;
+    padding: 0%;
+}
+
+.name h3{
+    font-size: 3rem;
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    bottom: 20px;
+    color: rgba(76, 115, 255, 0.3);
+}
+
+.containertitleOne{
+    background: rgb(0,22,100);
+    background: linear-gradient(90deg, rgba(0,22,100,0.5) 0%, rgba(37, 62, 149, 0.5) 50%, rgba(0,22,100,0.5) 100%); 
+    height: 2rem;
+    margin-top: 6rem;
+}
+
+.containertitleOne div div{
+     display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.containertitleOne div div h4{
+    margin: 0%;
+    display: flex;
+    
+}
+
+.containertitleOne:hover{
+    background: rgb(0,22,100);
+    background: linear-gradient(90deg, rgba(0,22,100,0.8) 0%, rgba(65,94,194,0.8) 50%, rgba(0,22,100,0.8) 100%);  
+    
+}
+
+.contentAreaAbout{
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: auto;
+    padding-top: 20px;
+    width: 70%;
+    height: 500px;
+    border-radius: 20px;
+}
+.contentAreaAbout .row{
+    height: 100% !important;
+    width: 100% !important;
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+}
+
+@media (min-width:1000px) {
+    .colImage2{
+        width: 50% !important;
+        color: rgba(76, 115, 255, 0.5);
+        font-size: 28px;
+    }
+}
+
+
+.contentProjectArea{
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: auto;
+    padding-bottom: 320px;
+    padding-top: 30px;
+    width: 70%;
+    height: auto ;
+    border-radius: 20px;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+
+.contentProjectArea .row{
+    height: 100% !important;
+    width: 100% !important;
+    display: inline-flex;
+    text-align: center;
+    align-content: flex-start;
+}
+.contentProjectArea .row .col-4{
+    display: inline-flex;
+    justify-content: center;
+}
+
+.card , .card-img-top{
+    border-radius: 20px;
+    border: none !important;
+} 
+
+.card-img-top{
+    box-shadow: 5px 5px 20px -5px rgba(0,0,0,0.2);
+    
+}
+
+.card-text{
+    color: rgba(76, 115, 255, 0.8);
+    font-size: 20px;
+}
+.card-title{
+    font-size: 2rem;
+}
+
+.contactArea{
+    width: 50%;
+    height: 350px;
+}
+
+.contactIcons{
+    width: 99%;
+}
+
+.contactUno{
+    width: 20%;
+    height: 100%;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.contactUno a button{
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    background: rgb(0,22,100);
+    background: linear-gradient(90deg, rgba(0,22,100,0.5) 0%, rgba(37, 62, 149, 0.5) 50%, rgba(0,22,100,0.5) 100%); 
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    }
+
+
+.contactDos{
+    width: 60%;
+    height: 70%;
+    color: rgba(76, 115, 255, 0.8);
+    font-size: 25px;
+    position: relative;
+    top: 10px;
+}
+
