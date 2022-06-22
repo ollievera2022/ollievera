@@ -61,6 +61,7 @@
     }
     .card .card-img-top{
         max-width: 250px;
+        max-height: 400;
     }
 }
    
