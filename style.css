@@ -11,37 +11,52 @@
         bottom: 50px !important;
     }
         h1{
-        font-size: 6rem !important;
+        font-size: 4rem !important;
     }
     .avatarBox h3{
         min-width: 200px;
-        font-size: 50px !important;
+        font-size: 2rem !important;
         margin-top: 30px !important;
     }
     .contentAreaAbout{
-        height: 800px !important;
+        height: 600px !important;
     }
     .colImage2 {
         width: 85% !important;
         color: rgba(76, 115, 255, 0.5);
-        font-size: 28px;
+        font-size: 18px;
         margin: auto;
         text-align: center;
     }
     .imgLang{
         position: relative;
         top: 2rem;
+        max-width: 60px;
     }
     .colCard{
         display: inline-flex;
         justify-content: center;
-        margin: 200px 0px;
+        margin: 150px 0px;
     }
     .contentAreaBox{
         min-width: 80%;
-        height: 450px !important;
+        height: 300px !important;
     }
-    
+    .colImage1 img{
+        max-width: 150px !important;
+    }
+    #imageAvatar{
+        max-width: 250px;
+    }
+    .card-body p, .contactDos p{
+        font-size: 18px;
+    }
+    .contactDos{
+        width: 80% !important;
+    }
+    .contactUno a button {
+        width: 60px !important;
+    }
 }
    
         
@@ -157,7 +172,7 @@ button:hover{
     padding-bottom: 320px;
     padding-top: 30px;
     width: 70%;
-    height: auto ;
+    height: auto;
     border-radius: 20px;
     display: inline-flex;
     justify-content: center;
@@ -165,8 +180,8 @@ button:hover{
     align-content: center;
 }
 
-.contentProjectArea .row{
-    height: 100% !important;
+.contentProjectArea .rowCard{
+    height: 50% !important;
     width: 100% !important;
     display: inline-flex;
     text-align: center;
@@ -180,6 +195,7 @@ button:hover{
 .card , .card-img-top{
     border-radius: 20px;
     border: none !important;
+    width: 200px;
 } 
 
 .card-img-top{
@@ -233,3 +249,10 @@ button:hover{
     top: 10px;
 }
 
+.card-body a .btn{
+    max-width: 100px !important;
+}
+
+.card .card-img-top{
+    width: auto !important;
+}
