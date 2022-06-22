@@ -59,6 +59,9 @@
     .contactUno a button {
         width: 60px !important;
     }
+    .card .card-img-top{
+        max-width: 250px;
+    }
 }
    
         
