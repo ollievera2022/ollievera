@@ -88,14 +88,14 @@
     }
 
     .card-title{
-        margin-top: 40px;
+        margin-top: 20px;
         
-        .containertitleOne{
-        margin-top:10rem;
-        }
-        .third{
-        margin-top: 0px
-        }
+    .containertitleOne{
+    margin-top:10rem;
+    }
+    .third{
+    margin-top: 0px
+    }
 }
 }
         
