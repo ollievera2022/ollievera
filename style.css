@@ -94,7 +94,7 @@
         margin-top:10rem;
         }
         .third{
-        margin-top: 100px
+        margin-top: 0px
         }
 }
 }
@@ -310,3 +310,7 @@ button:hover{
     align-content: center;
     justify-content: center;
 }
+
+ .third{
+        margin-top: 100px
+        }
