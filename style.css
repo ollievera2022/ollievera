@@ -21,6 +21,9 @@
     .contentAreaAbout{
         height: 600px !important;
     }
+    .contactIcons{
+        height: 500px;
+    }
     .colImage2 {
         width: 85% !important;
         color: rgba(76, 115, 255, 0.5);
@@ -45,6 +48,7 @@
     }
     .colImage1 img{
         max-width: 200px !important;
+        max-height: 200px !important;
     }
     #imageAvatar{
         max-width: 250px;
@@ -53,7 +57,8 @@
     .card-body p, .contactDos p{
         font-size: 18px;
     }
-    .contactDos{
+    
+    .contactDos, .contactDos p{
         width: 80% !important;
     }
     .contactUno a button {
@@ -62,6 +67,12 @@
     .card .card-img-top{
         max-width: 180px;
         max-height: 180px;
+    }
+    .contentProjectArea{
+        
+        text-align: center;
+        background-color: none !;
+        
     }
 }
    
@@ -169,8 +180,6 @@ button:hover{
         color: rgba(76, 115, 255, 0.5);
         font-size: 28px;
     }
-}
-
 
 .contentProjectArea{
     background-color: rgba(255, 255, 255, 0.3);
@@ -183,7 +192,8 @@ button:hover{
     display: inline-flex;
     justify-content: center;
     text-align: center;
-    align-content: center;
+    
+}
 }
 
 .contentProjectArea .rowCard{
@@ -261,4 +271,9 @@ button:hover{
 
 .card .card-img-top{
     width: auto !important;
+}
+
+.imageMe{
+    width: 300px;
+    height: 300px;
 }
