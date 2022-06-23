@@ -90,8 +90,7 @@
         
 
 body{ 
-    background: rgb(230,239,255);
-    background: linear-gradient(350deg, rgba(230,239,255,1) 0%, rgba(154,189,255,1) 38%, rgba(230,239,255,1) 100%);
+    background: blue;
     color: white;
     font-family: 'Amatic SC';
     margin: 0%;
