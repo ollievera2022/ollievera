@@ -85,8 +85,12 @@
         display: inline-flex;
         justify-content: center;
     }
+
+    .card-title{
+        margin-top: 40px;
+    
 }
-   
+}
         
 
 body{ 
@@ -204,6 +208,9 @@ button:hover{
     justify-content: center;
     text-align: center;
     
+}
+.card-title{
+    margin-top: 50px;
 }
 
 
