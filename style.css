@@ -65,8 +65,8 @@
         width: 60px !important;
     }
     .card .card-img-top{
-       max-width: max-content;
-       max-height: max-content;
+       max-width: 11rem;
+       max-height: 11rem;
     }
     .contentProjectArea{
         
